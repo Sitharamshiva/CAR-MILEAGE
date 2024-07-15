@@ -5,7 +5,7 @@ from sklearn.metrics import mean_squared_error,r2_score
 from sklearn.linear_model import LinearRegression
 import pickle
 # Load the trained model
-model = pickle.load(open(r"C:\Users\shiva\ln.pkl", "rb"))
+model = pickle.load(open(r"ln.pkl", "rb"))
 
 # Streamlit UI for user input
 st.title("Car Mileage Prediction")
